@@ -10,3 +10,5 @@ pnpm-debug.log*
 
 /web/node_modules
 /web/build
+
+/tmp/
