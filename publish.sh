@@ -41,6 +41,7 @@ sh build.sh
 prepare_publish release
 
 cp -r imports resource locales fxmanifest.lua init.lua tmp
-cp -r web/build tmp/web
+mkdir -p tmp/web
+cp -r web/build tmp/web/build
 
 finalize_publish release
